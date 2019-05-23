@@ -1,0 +1,72 @@
+
+//colors-----------------------
+.add-Green{
+    color: $color-primary;
+}
+
+
+.bg-light-color{
+    background-color:$light; 
+}
+
+.add-black{
+    
+        color: !important $dark;
+        :hover{
+            color:$color-primary;
+        }
+}
+
+
+//fonts-------------------------
+.add-Bold{
+    font-weight: bold;
+}
+
+.add-font-small{
+    font-size: 14px;
+}
+
+.capitalize {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    color: $dark;
+    line-height: 30px;
+}
+//padding-------------------------
+.padding-small{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.padding-y-small{
+    padding-top:1.3rem;
+padding-bottom: 1.3rem;
+}
+.padding-x-big{
+    padding-right:4rem;
+padding-left: 4rem;
+}
+
+.no-gutters{
+    padding: 0px;
+}
+
+//----------------------------------
+//btn 
+.btn-primary{
+    background-color: $color-primary;
+    border-color: $color-primary;
+    &:hover{
+        background-color: $dark;
+        color:$color-white;
+    
+    }
+}
+
+.small-btn {
+    padding: 0.5rem 0.5rem !important;
+    font-size: 1.2rem !important;
+    border-radius: 0  !important;
+}
