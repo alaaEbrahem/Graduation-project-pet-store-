@@ -1,44 +1,4 @@
 
-    .list{
-        border-bottom: 0.5 rem solid gray !important;
-        li,.link{
-            list-style-type: none !important;
-            font-size: 1.5rem;
-            text-decoration: none;
-            color: black !important;
-            
-            &:hover{
-                color: black !important;
-                text-decoration: none !important;
-            }
-        }
-        
-        
-    }
-
-    .list-title{
-        font-size: 2rem;
-    }
-// .card-cont{
-//     border-radius: 95% !important;
-// }
-.card-img-top{
-    padding: 0;
-    display: block;
-    width: 100%;
-    height: auto;
-    width:100% !important;
-    
-}
-.show ,.edit{
-    font-size: 1.5rem;
-    color :black;
-  //  background-color: rgb(216, 211, 211);
-    &:hover{
-        color :$color-primary;
-    }
-}
-
 .row-title{
     font-family: 'Shadows Into Light', cursive;
   

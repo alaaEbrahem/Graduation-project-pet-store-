@@ -109,7 +109,7 @@ a {
   font-family: 'Dancing Script', cursive; }
 
 .bg-cont {
-  background-image: url(../../images/puppies.png);
+  background-image: url(../images/puppies.png);
   height: 10rem;
   background-position: center;
   background-attachment: fixed; }
@@ -238,33 +238,12 @@ a {
 .pagination a:hover:not(.active) {
   background-color: #ddd; }
 
-.list {
-  border-bottom: 0.5 rem solid gray !important; }
-  .list li, .list .link {
-    list-style-type: none !important;
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: black !important; }
-    .list li:hover, .list .link:hover {
-      color: black !important;
-      text-decoration: none !important; }
-
-.list-title {
-  font-size: 2rem; }
-
-.card-img-top {
-  padding: 0;
-  display: block;
-  width: 100%;
-  height: auto;
-  width: 100% !important; }
+.row-title {
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Dancing Script', cursive; }
 
 .show, .edit {
   font-size: 1.5rem;
   color: black; }
   .show:hover, .edit:hover {
     color: #94C13D; }
-
-.row-title {
-  font-family: 'Shadows Into Light', cursive;
-  font-family: 'Dancing Script', cursive; }
