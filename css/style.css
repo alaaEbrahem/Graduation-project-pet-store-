@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+html {
+  font-size: 62.5%; }
+
+h1 {
+  font-size: 4rem; }
+
+h4 {
+  font-size: 1.8rem;
+  color: #111111; }
+
+h3 {
+  font-size: 2.8rem; }
+
+.text {
+  font-size: 1.6rem  !important;
+  color: #555 !important; }
+
+a {
+  text-decoration: none; }
+
+.box {
+  margin: auto;
+  font-family: "Open Sans, Arial, Helvetica, Verdana, Sans-Serif"; }
+
+.top-banner {
+  background-image: url("https://adogslove.com/wp-content/uploads/2015/11/cute-smiling-puppy-full-hd-wallpaper-1080p.jpg");
+  color: #fff;
+  background-size: cover;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  padding-top: 15.625em; }
+  .top-banner p {
+    font-size: 1.7rem; }
+
+.top-banner--text {
+  color: inherit;
+  padding: 1.875em 2.3125em 2.5em 2.3125em;
+  background: rgba(0, 122, 202, 0.7); }
+
+.top-banner--text h1 {
+  line-height: 1.1;
+  color: inherit;
+  text-shadow: 3px 3px 1px black;
+  font-weight: normal; }
+
+.top-banner--text p {
+  margin: 0; }
+
+@media screen and (min-width: 50em) {
+  .top-banner {
+    display: flex;
+    height: 500px;
+    align-items: center;
+    padding-top: 0;
+    background-image: linear-gradient(75deg, rgba(0, 122, 202, 0.7) 50%, rgba(255, 255, 255, 0) 50%), url("https://adogslove.com/wp-content/uploads/2015/11/cute-smiling-puppy-full-hd-wallpaper-1080p.jpg"); }
+  .top-banner--text {
+    background-color: transparent;
+    max-width: 40%;
+    padding-top: 0;
+    padding-bottom: 0; }
+  .top-banner--text h1 {
+    margin-bottom: 1rem;
+    margin-left: 0; } }
+
+@media screen and (min-width: 75em) {
+  .top-banner--text {
+    max-width: calc(400/1188 * 100%);
+    padding-left: 6.25em;
+    padding-right: 3.125em; } }
+
+.pets--box--catalog--info {
+  overflow: hidden; }
+  .pets--box--catalog--info__name {
+    color: #111111;
+    font-size: 1rem; }
+  .pets--box--catalog--info__photo {
+    transition: all .2s ease-in-out; }
+    .pets--box--catalog--info__photo:hover {
+      cursor: pointer;
+      transform: scale(0.9); }
+
+.rounded-circle {
+  width: 165px;
+  border: 1px solid darkgray;
+  border-radius: 50% !important; }
+
+.FAQ--box--desc {
+  transition: all .2s ease-in-out; }
+  .FAQ--box--desc__photo:HOVER {
+    cursor: pointer;
+    filter: drop-shadow(0px 2px 7px blue); }
+
+.FAQ--box__title {
+  color: #ffffff; }
+
+.FAQ--box p {
+  font-size: 1.5rem; }
+
+.Introduction--Box {
+  height: 100%; }
+  .Introduction--Box--info__paragraph {
+    line-height: 1.444;
+    font-size: 1.2rem;
+    font-family: 'Varela Round', sans-serif;
+    color: #666; }
+  .Introduction--Box--info__Question {
+    color: #94C13D;
+    font-size: 1.7rem;
+    line-height: 1.25;
+    font-weight: bold;
+    margin: 1em 0; }
+
+.SvgHeader {
+  background-color: violet; }
+  .SvgHeader--Box {
+    padding: 0 !important;
+    background-image: url(https://secretldn.com/wp-content/uploads/2018/10/puppy-pop-up-cuddle-discover-dogs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem; }
+    .SvgHeader--Box--container {
+      width: 100% !important; }
+    .SvgHeader--Box__title {
+      margin: auto;
+      color: white; }
+
+.c-hero__bottom-curve {
+  width: 100%;
+  margin-top: 12.5rem; }
+
+.DiscoverAnimalCard p {
+  font-size: 1.5rem; }
+
+.search-banner {
+  background-image: url("https://adogslove.com/wp-content/uploads/2015/11/cute-smiling-puppy-full-hd-wallpaper-1080p.jpg"); }
+  .search-banner .card {
+    background-color: transparent !important; }
