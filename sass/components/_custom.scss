@@ -8,7 +8,7 @@
 }
 
 .add-black {
-  color: !important $dark;
+  color: $dark !important;
   :hover {
     color: $color-primary;
   }
