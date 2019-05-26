@@ -25,7 +25,6 @@ h3 {
 a {
   text-decoration: none; }
 
-<<<<<<< HEAD
 .box {
   margin: auto;
   font-family: "Open Sans, Arial, Helvetica, Verdana, Sans-Serif"; }
@@ -143,7 +142,7 @@ a {
   background-image: url("https://adogslove.com/wp-content/uploads/2015/11/cute-smiling-puppy-full-hd-wallpaper-1080p.jpg"); }
   .search-banner .card {
     background-color: transparent !important; }
-=======
+
 .footer {
   background-color: black;
   color: white;
@@ -394,4 +393,180 @@ a {
   position: relative;
   width: 190px;
   height: 30px; }
->>>>>>> 573273d833ace68af0c770c58820995967f33bf4
+
+.banner-image {
+  background-image: url(../images/resources-slide.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 25rem; }
+  .banner-image__banner-content .title {
+    margin: auto; }
+  .banner-image__banner-content .paragraph-1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 0.05rem;
+    color: #ffffff;
+    line-height: 25rem;
+    text-transform: capitalize; }
+
+.blog-path {
+  background: #f7f9f3; }
+  .blog-path li {
+    font-weight: 600;
+    display: inline-block;
+    font-size: 0.8rem;
+    list-style: none; }
+    .blog-path li a {
+      color: #94c13d;
+      font-size: 1.1rem;
+      font-weight: 100;
+      text-transform: capitalize;
+      color: #94c13d;
+      line-height: 1.5rem; }
+      .blog-path li a .fa {
+        margin-right: 0.2rem;
+        font-size: 1.5rem; }
+  .blog-path .new {
+    font-size: 1.1rem;
+    font-weight: 100;
+    text-transform: capitalize;
+    color: #555;
+    line-height: 1.1rem; }
+
+.post-paragrph p {
+  line-height: 2rem;
+  margin-bottom: 1rem; }
+
+.post-date {
+  background-color: #94C13D;
+  height: 6rem; }
+  .post-date__day {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600; }
+  .post-date__month {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500; }
+
+.post-title {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #555; }
+  .post-title:hover {
+    text-decoration: none;
+    color: #94C13D; }
+
+.far, .fas {
+  color: #94C13D;
+  font-weight: 600; }
+
+.social {
+  font-size: 0.8rem;
+  color: #555;
+  font-weight: 600; }
+
+.line-small {
+  height: 0.15rem;
+  background-color: #94C13D;
+  width: 2rem; }
+
+.line-medium {
+  height: 0.13rem;
+  background-color: #94C13D;
+  width: 4rem; }
+
+.tags a {
+  color: #94C13D;
+  font-size: 0.9rem;
+  font-weight: 600; }
+  .tags a:hover {
+    text-decoration: none;
+    color: #94C13D; }
+
+.tags .first {
+  color: #555; }
+
+.share .fab {
+  position: relative;
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #848484;
+  font-size: 16px;
+  line-height: 2.5rem;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+  background: #f4f4f4; }
+  .share .fab:hover {
+    background: #94c13d;
+    color: white; }
+
+.share .share-this {
+  font-weight: 600;
+  font-size: 1rem; }
+
+.sperator {
+  height: 0.1rem;
+  background-color: #cac6c6; }
+
+@media (max-width: 992px) {
+  .share {
+    margin-top: 2rem; } }
+
+.comments {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600; }
+  .comments__comment-owner {
+    font-weight: 600; }
+  .comments__comment-text {
+    color: #a19c9c; }
+  .comments__comment-info {
+    font-size: 0.8rem;
+    font-weight: 600; }
+    .comments__comment-info__reply {
+      color: #94C13D;
+      font-size: 2rem;
+      font-weight: 600; }
+
+@media (max-width: 992px) {
+  .comments__comment-owner {
+    margin-top: 2rem; } }
+
+.form-group textarea {
+  height: 12rem;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  color: #888888;
+  line-height: 24px;
+  padding: 12px 20px;
+  font-weight: 400;
+  border-radius: 25px;
+  border: 1px solid #ccc; }
+
+.form-group #reply {
+  margin-top: 2rem;
+  height: 4rem; }
+
+.form-group button {
+  line-height: 1.8rem;
+  color: #ffffff;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: #94c13d;
+  letter-spacing: 0.08rem;
+  text-transform: uppercase;
+  border: 2px solid #94c13d;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 0.1rem;
+  padding: 11px 40px;
+  background: #94c13d;
+  border-color: #94c13d;
+  border-radius: 25px; }
