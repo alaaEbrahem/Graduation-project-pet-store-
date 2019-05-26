@@ -6,7 +6,6 @@
 @import 'base/base';
 @import 'base/reset';
 @import 'base/typography';
-<<<<<<< HEAD
 @import 'base/utilites'; 
 
 @import'components/AnimalBanner';
@@ -17,11 +16,11 @@
 @import'components/first-component';
 @import'components/AnimalCard';
 @import'components/searchHeader';
-=======
-@import 'base/utilites';
+
 
 
 @import 'layout/_footer.scss';
+@import 'layout/header';
 
 @import 'components/bg-break';
 @import 'components/_custom';
@@ -31,4 +30,3 @@
 @import 'components/crud-actions';
 @import 'components/search-box';
 
->>>>>>> 573273d833ace68af0c770c58820995967f33bf4

@@ -25,7 +25,6 @@ h3 {
 a {
   text-decoration: none; }
 
-<<<<<<< HEAD
 .box {
   margin: auto;
   font-family: "Open Sans, Arial, Helvetica, Verdana, Sans-Serif"; }
@@ -143,7 +142,7 @@ a {
   background-image: url("https://adogslove.com/wp-content/uploads/2015/11/cute-smiling-puppy-full-hd-wallpaper-1080p.jpg"); }
   .search-banner .card {
     background-color: transparent !important; }
-=======
+
 .footer {
   background-color: black;
   color: white;
@@ -226,6 +225,11 @@ a {
   font-size: 3rem;
   font-family: 'Shadows Into Light', cursive;
   font-family: 'Dancing Script', cursive; }
+
+.nav-cont a {
+  color: black !important; }
+  .nav-cont a:hover {
+    color: #94C13D !important; }
 
 .bg-cont {
   background-image: url(../images/puppies.png);
@@ -394,4 +398,3 @@ a {
   position: relative;
   width: 190px;
   height: 30px; }
->>>>>>> 573273d833ace68af0c770c58820995967f33bf4
