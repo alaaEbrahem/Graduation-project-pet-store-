@@ -1,26 +1,24 @@
 {
-  "name": "graduationprojectnew",
+  "name": "graduation-project-pet-store-",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "save-dev": "^2.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
-<<<<<<< HEAD
-    "start": "node-sass -w sass/main.scss  css/style.css"
-=======
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node-sass sass/main.scss css/style.css -w"
->>>>>>> 573273d833ace68af0c770c58820995967f33bf4
+    "start": "node-sass sass/main.scss Css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alaaEbrahem/Graduation-project-pet-store-.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-<<<<<<< HEAD
-    "node-sass": "^4.12.0",
-    "save-dev": "^2.0.0",
-    "bootstrap": "^4.3.1"
-=======
-    "bootstrap": "^4.3.1",
-    "node-sass": "^4.12.0"
->>>>>>> 573273d833ace68af0c770c58820995967f33bf4
-  }
+  "bugs": {
+    "url": "https://github.com/alaaEbrahem/Graduation-project-pet-store-/issues"
+  },
+  "homepage": "https://github.com/alaaEbrahem/Graduation-project-pet-store-#readme"
 }
