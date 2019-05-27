@@ -8,7 +8,12 @@
   },
   "devDependencies": {},
   "scripts": {
+<<<<<<< HEAD
     "start": "node-sass sass/main.scss css/style.css -w"
+=======
+
+    "start": "node-sass sass/main.scss Css/style.css -w"
+>>>>>>> 2bb17e8fde13e5abc7aebcf681124499c74270e6
   },
   "repository": {
     "type": "git",
