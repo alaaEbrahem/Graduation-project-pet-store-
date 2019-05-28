@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif; }
 
 a {
   text-decoration: none; }
@@ -204,23 +205,24 @@ a {
 
 .post-paragrph p {
   line-height: 2rem;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  font-size: 1.3rem; }
 
 .post-date {
   background-color: #94C13D;
   height: 6rem; }
   .post-date__day {
     color: white;
-    font-size: 1.6rem;
-    font-weight: 600; }
+    font-size: 1.7rem;
+    font-weight: 700; }
   .post-date__month {
     color: white;
     font-size: 1.3rem;
-    font-weight: 500; }
+    font-weight: 600; }
 
 .post-title {
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   font-weight: 600;
   color: #555; }
   .post-title:hover {
@@ -229,26 +231,27 @@ a {
 
 .far, .fas {
   color: #94C13D;
-  font-weight: 600; }
+  font-weight: 600;
+  font-size: 1.2rem; }
 
 .social {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #555;
   font-weight: 600; }
 
 .line-small {
-  height: 0.15rem;
+  height: 0.2rem;
   background-color: #94C13D;
   width: 2rem; }
 
 .line-medium {
-  height: 0.13rem;
+  height: 0.2rem;
   background-color: #94C13D;
   width: 4rem; }
 
 .tags a {
   color: #94C13D;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   font-weight: 600; }
   .tags a:hover {
     text-decoration: none;
@@ -274,7 +277,7 @@ a {
 
 .share .share-this {
   font-weight: 600;
-  font-size: 1rem; }
+  font-size: 1.2rem; }
 
 .sperator {
   height: 0.1rem;
@@ -605,23 +608,24 @@ a {
 
 .post-paragrph p {
   line-height: 2rem;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  font-size: 1.3rem; }
 
 .post-date {
   background-color: #94C13D;
   height: 6rem; }
   .post-date__day {
     color: white;
-    font-size: 1.6rem;
-    font-weight: 600; }
+    font-size: 1.7rem;
+    font-weight: 700; }
   .post-date__month {
     color: white;
     font-size: 1.3rem;
-    font-weight: 500; }
+    font-weight: 600; }
 
 .post-title {
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   font-weight: 600;
   color: #555; }
   .post-title:hover {
@@ -630,26 +634,27 @@ a {
 
 .far, .fas {
   color: #94C13D;
-  font-weight: 600; }
+  font-weight: 600;
+  font-size: 1.2rem; }
 
 .social {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #555;
   font-weight: 600; }
 
 .line-small {
-  height: 0.15rem;
+  height: 0.2rem;
   background-color: #94C13D;
   width: 2rem; }
 
 .line-medium {
-  height: 0.13rem;
+  height: 0.2rem;
   background-color: #94C13D;
   width: 4rem; }
 
 .tags a {
   color: #94C13D;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   font-weight: 600; }
   .tags a:hover {
     text-decoration: none;
@@ -675,7 +680,7 @@ a {
 
 .share .share-this {
   font-weight: 600;
-  font-size: 1rem; }
+  font-size: 1.2rem; }
 
 .sperator {
   height: 0.1rem;
@@ -690,15 +695,19 @@ a {
   font-size: 1.5rem;
   font-weight: 600; }
   .comments__comment-owner {
-    font-weight: 600; }
+    font-weight: 600;
+    font-size: 1.3rem; }
   .comments__comment-text {
-    color: #a19c9c; }
+    color: #a19c9c;
+    font-size: 1.2rem; }
   .comments__comment-info {
     font-size: 0.8rem;
-    font-weight: 600; }
+    font-weight: 600;
+    font-size: 1.2rem; }
     .comments__comment-info__reply {
       color: #94C13D;
       font-size: 2rem;
+      font-size: 1.3rem;
       font-weight: 600; }
 
 @media (max-width: 992px) {
@@ -740,9 +749,72 @@ textarea {
   margin-top: 2rem;
   height: 4rem; }
 
+.login-form__two-sides {
+  height: 100%; }
+  .login-form__two-sides__advices {
+    height: 100%;
+    border-radius: 3rem 0rem 0rem 3rem;
+    background-color: #94C13D; }
+    .login-form__two-sides__advices__advices-header {
+      color: #ffffff;
+      font-family: arial,helvetica,sans-serif;
+      margin-top: 7rem;
+      font-size: 2.4rem; }
+    .login-form__two-sides__advices__adv-list {
+      color: #ffffff;
+      font-size: 1.3rem;
+      padding-left: 5rem; }
+      .login-form__two-sides__advices__adv-list li {
+        padding-bottom: 2rem; }
+  .login-form__two-sides__inputs {
+    background-color: #f3f0f0;
+    border-radius: 0rem 3rem 3rem 0rem; }
+    .login-form__two-sides__inputs__exit p {
+      text-align: center; }
+      .login-form__two-sides__inputs__exit p i {
+        font-size: 3rem; }
+    .login-form__two-sides__inputs__header {
+      text-align: center;
+      margin-top: 2rem;
+      color: #94C13D;
+      font-size: 2.4rem;
+      font-family: arial,helvetica,sans-serif; }
+    .login-form__two-sides__inputs__form {
+      margin-left: 0.5rem; }
+      .login-form__two-sides__inputs__form input {
+        height: 4rem;
+        font-size: 1.3rem;
+        margin-bottom: 2rem; }
+        .login-form__two-sides__inputs__form input:hover {
+          border: 1px solid #94C13D; }
+        .login-form__two-sides__inputs__form input:focus {
+          box-shadow: 0px 1px 1px #94C13D; }
+      .login-form__two-sides__inputs__form button {
+        width: 100%;
+        margin-top: 1.5rem; }
+    .login-form__two-sides__inputs__forget {
+      margin-top: 1.5rem; }
+      .login-form__two-sides__inputs__forget a {
+        color: #94C13D;
+        font-size: 1.3rem;
+        font-weight: 700; }
+        .login-form__two-sides__inputs__forget a:hover {
+          color: #555; }
+      .login-form__two-sides__inputs__forget p {
+        color: #94C13D;
+        font-size: 1.3rem;
+        font-weight: 700; }
+      .login-form__two-sides__inputs__forget button {
+        width: 100%;
+        margin-top: 1.2rem; }
+    .login-form__two-sides__inputs__sperator {
+      height: 0.05rem;
+      background-color: #a59b9b; }
+
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif; }
 
 a {
   text-decoration: none; }
@@ -857,3 +929,9 @@ a {
   color: black !important; }
   .nav-cont a:hover {
     color: #94C13D !important; }
+
+.nav-bar {
+  height: 5rem;
+  max-height: 5rem; }
+  .nav-bar__logo {
+    line-height: 4rem; }
