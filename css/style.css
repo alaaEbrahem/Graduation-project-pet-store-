@@ -184,6 +184,9 @@ a {
     left: 50%;
     margin-left: -6.5rem; }
 
+.panel-body ul {
+  list-style: none; }
+
 .tag a:hover {
   text-decoration: none;
   color: #94C13D !important;
@@ -702,22 +705,6 @@ a {
   .comments__comment-owner {
     margin-top: 2rem; } }
 
-.form-group textarea {
-  height: 12rem;
-  display: block;
-  width: 100%;
-  font-size: 1rem;
-  color: #888888;
-  line-height: 24px;
-  padding: 12px 20px;
-  font-weight: 400;
-  border-radius: 25px;
-  border: 1px solid #ccc; }
-
-.form-group #reply {
-  margin-top: 2rem;
-  height: 4rem; }
-
 .form-group button {
   line-height: 1.8rem;
   color: #ffffff;
@@ -736,6 +723,22 @@ a {
   background: #94c13d;
   border-color: #94c13d;
   border-radius: 25px; }
+
+textarea {
+  height: 12rem;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  color: #888888;
+  line-height: 24px;
+  padding: 12px 20px;
+  font-weight: 400;
+  border-radius: 25px;
+  border: 1px solid #ccc; }
+
+.textarea-reply {
+  margin-top: 2rem;
+  height: 4rem; }
 
 body {
   margin: 0;
