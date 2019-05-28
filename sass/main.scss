@@ -2,6 +2,12 @@
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
+@import "base/animation";
+@import "base/base";
+@import "base/reset";
+@import "base/typography";
+@import "base/utilites";
+
 @import "components/AnimalBanner";
 @import "components/AnimalTypesBox";
 @import "components/FAQ";
