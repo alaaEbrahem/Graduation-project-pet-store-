@@ -733,9 +733,125 @@ a {
   font-family: 'Poppins', sans-serif;
   margin-top: 0.1rem;
   padding: 11px 40px;
-  background: #94c13d;
   border-color: #94c13d;
   border-radius: 25px; }
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 70px; }
+  .slider__items {
+    width: 100%; }
+  .slider__item {
+    background-image: url("../images/avatar.jpg");
+    background-size: cover;
+    display: none;
+    width: 100%;
+    padding-bottom: 100%; }
+    .slider__item.active {
+      display: flex; }
+  .slider__indicators {
+    right: calc(50% - 2.5rem);
+    display: flex;
+    width: 10rem;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-evenly; }
+  .slider__indicator {
+    display: block;
+    width: .8rem;
+    height: .8rem;
+    border-radius: 50%;
+    background-color: #cac6c6; }
+    .slider__indicator:hover, .slider__indicator.active {
+      background-color: #94C13D; }
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 70px; }
+  .slider__items {
+    width: 100%; }
+  .slider__item {
+    background-image: url("../images/avatar.jpg");
+    background-size: cover;
+    display: none;
+    width: 100%;
+    padding-bottom: 100%; }
+    .slider__item.active {
+      display: flex; }
+  .slider__indicators {
+    right: calc(50% - 2.5rem);
+    display: flex;
+    width: 10rem;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-evenly; }
+  .slider__indicator {
+    display: block;
+    width: .8rem;
+    height: .8rem;
+    border-radius: 50%;
+    background-color: #cac6c6; }
+    .slider__indicator:hover, .slider__indicator.active {
+      background-color: #94C13D; }
+
+.add-animal-form {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 1px grey solid;
+  border-top: 5px #94C13D solid;
+  border-radius: 10px;
+  padding: 16px; }
+
+.gender-field, .is-to-sail-field {
+  border: 1.1px solid #94C13D;
+  border-radius: 27.5px;
+  height: 13rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-right: 0;
+  margin: 5px;
+  width: 95%;
+  padding: 8px; }
+  .gender-field form-check, .is-to-sail-field form-check {
+    padding-bottom: 1.2rem; }
+
+#button--cancel {
+  background-color: black;
+  border-color: black; }
+
+.lable {
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: .5rem; }
+
+.form-check-label {
+  font-size: 1.6rem;
+  line-height: .85;
+  padding-bottom: 10px; }
+
+.text-box {
+  border-radius: 25px;
+  height: 3.5rem; }
+
+.form-drop_down {
+  border-radius: 25px;
+  height: 3.5rem; }
+
+.form-control {
+  font-size: 1.6rem;
+  line-height: 1.85; }
+  .form-control:focus, .form-control:active {
+    outline: none;
+    border-color: #94C13D;
+    box-shadow: 0 0 0 0.1px #94C13D; }
 
 body {
   margin: 0;
