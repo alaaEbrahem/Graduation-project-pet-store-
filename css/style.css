@@ -184,6 +184,9 @@ a {
     left: 50%;
     margin-left: -6.5rem; }
 
+.panel-body ul {
+  list-style: none; }
+
 .tag a:hover {
   text-decoration: none;
   color: #94C13D !important;
@@ -600,88 +603,6 @@ a {
     color: #555;
     line-height: 1.1rem; }
 
-.post-paragrph p {
-  line-height: 2rem;
-  margin-bottom: 1rem; }
-
-.post-date {
-  background-color: #94C13D;
-  height: 6rem; }
-  .post-date__day {
-    color: white;
-    font-size: 1.6rem;
-    font-weight: 600; }
-  .post-date__month {
-    color: white;
-    font-size: 1.3rem;
-    font-weight: 500; }
-
-.post-title {
-  text-decoration: none;
-  font-size: 1.6rem;
-  font-weight: 600;
-  color: #555; }
-  .post-title:hover {
-    text-decoration: none;
-    color: #94C13D; }
-
-.far, .fas {
-  color: #94C13D;
-  font-weight: 600; }
-
-.social {
-  font-size: 0.8rem;
-  color: #555;
-  font-weight: 600; }
-
-.line-small {
-  height: 0.15rem;
-  background-color: #94C13D;
-  width: 2rem; }
-
-.line-medium {
-  height: 0.13rem;
-  background-color: #94C13D;
-  width: 4rem; }
-
-.tags a {
-  color: #94C13D;
-  font-size: 0.9rem;
-  font-weight: 600; }
-  .tags a:hover {
-    text-decoration: none;
-    color: #94C13D; }
-
-.tags .first {
-  color: #555; }
-
-.share .fab {
-  position: relative;
-  width: 2.5rem;
-  height: 2.5rem;
-  color: #848484;
-  font-size: 16px;
-  line-height: 2.5rem;
-  text-align: center;
-  border-radius: 50%;
-  display: inline-block;
-  background: #f4f4f4; }
-  .share .fab:hover {
-    background: #94c13d;
-    color: white; }
-
-.share .share-this {
-  font-weight: 600;
-  font-size: 1rem; }
-
-.sperator {
-  height: 0.1rem;
-  background-color: #cac6c6; }
-
-@media (max-width: 992px) {
-  .share {
-    margin-top: 2rem; } }
-
 .comments {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
@@ -768,38 +689,6 @@ a {
     .slider__indicator:hover, .slider__indicator.active {
       background-color: #94C13D; }
 
-.slider {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding-top: 70px; }
-  .slider__items {
-    width: 100%; }
-  .slider__item {
-    background-image: url("../images/avatar.jpg");
-    background-size: cover;
-    display: none;
-    width: 100%;
-    padding-bottom: 100%; }
-    .slider__item.active {
-      display: flex; }
-  .slider__indicators {
-    right: calc(50% - 2.5rem);
-    display: flex;
-    width: 10rem;
-    padding: 2rem;
-    align-items: center;
-    justify-content: space-evenly; }
-  .slider__indicator {
-    display: block;
-    width: .8rem;
-    height: .8rem;
-    border-radius: 50%;
-    background-color: #cac6c6; }
-    .slider__indicator:hover, .slider__indicator.active {
-      background-color: #94C13D; }
-
 .add-animal-form {
   margin-bottom: 20px;
   margin-top: 20px;
@@ -852,6 +741,65 @@ a {
     outline: none;
     border-color: #94C13D;
     box-shadow: 0 0 0 0.1px #94C13D; }
+
+.post__header {
+  cursor: pointer;
+  font-size: 1.7rem; }
+
+.post__title {
+  text-align: justify;
+  font-size: 1.5rem;
+  color: #555;
+  border-radius: 1.1rem; }
+
+.post__image {
+  border: 1px solid #f7f7f0;
+  width: 100%;
+  margin-bottom: 30px;
+  height: 41rem; }
+
+.post__meta {
+  display: block;
+  margin-bottom: 25px;
+  overflow: hidden; }
+  .post__meta ul {
+    padding: 0;
+    display: inline; }
+    .post__meta ul span {
+      float: right;
+      color: #94C13D; }
+    .post__meta ul li {
+      background: #f0f0e9;
+      float: left;
+      margin-right: 10px;
+      padding: 0 5px;
+      font-size: 11px;
+      color: #393b3b;
+      position: relative; }
+      .post__meta ul li i {
+        background: #94C13D;
+        color: #ffffff;
+        margin-left: -4px;
+        margin-right: 7px;
+        padding: 4px 7px; }
+        .post__meta ul li i:after {
+          content: "";
+          position: absolute;
+          width: auto;
+          height: auto;
+          border-color: transparent transparent transparent #94C13D;
+          border-width: 4px;
+          border-style: solid;
+          top: 6px;
+          left: 24px; }
+  .post__meta span {
+    float: right; }
+    .post__meta span i {
+      color: #94C13D; }
+
+.add-post__btn {
+  font-size: 1.6rem;
+  font-weight: 500; }
 
 body {
   margin: 0;
