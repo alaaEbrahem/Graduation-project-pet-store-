@@ -184,6 +184,9 @@ a {
     left: 50%;
     margin-left: -6.5rem; }
 
+.panel-body ul {
+  list-style: none; }
+
 .tag a:hover {
   text-decoration: none;
   color: #94C13D !important;
@@ -736,6 +739,65 @@ a {
   background: #94c13d;
   border-color: #94c13d;
   border-radius: 25px; }
+
+.post__header {
+  cursor: pointer;
+  font-size: 1.7rem; }
+
+.post__title {
+  text-align: justify;
+  font-size: 1.5rem;
+  color: #555;
+  border-radius: 1.1rem; }
+
+.post__image {
+  border: 1px solid #f7f7f0;
+  width: 100%;
+  margin-bottom: 30px;
+  height: 41rem; }
+
+.post__meta {
+  display: block;
+  margin-bottom: 25px;
+  overflow: hidden; }
+  .post__meta ul {
+    padding: 0;
+    display: inline; }
+    .post__meta ul span {
+      float: right;
+      color: #94C13D; }
+    .post__meta ul li {
+      background: #f0f0e9;
+      float: left;
+      margin-right: 10px;
+      padding: 0 5px;
+      font-size: 11px;
+      color: #393b3b;
+      position: relative; }
+      .post__meta ul li i {
+        background: #94C13D;
+        color: #ffffff;
+        margin-left: -4px;
+        margin-right: 7px;
+        padding: 4px 7px; }
+        .post__meta ul li i:after {
+          content: "";
+          position: absolute;
+          width: auto;
+          height: auto;
+          border-color: transparent transparent transparent #94C13D;
+          border-width: 4px;
+          border-style: solid;
+          top: 6px;
+          left: 24px; }
+  .post__meta span {
+    float: right; }
+    .post__meta span i {
+      color: #94C13D; }
+
+.add-post__btn {
+  font-size: 1.6rem;
+  font-weight: 500; }
 
 body {
   margin: 0;
