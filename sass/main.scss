@@ -31,11 +31,13 @@
 @import "components/item-listing";
 @import "components/crud-actions";
 @import "components/search-box";
-@import "components/banner-image";
-@import "components/post";
-@import "components/comments";
-@import "components/form";
-@import "components/postListing";
+
+@import 'components/banner-image';
+@import 'components/post';
+@import 'components/comments';
+@import 'components/button';
+@import 'components/text-area';
+@import "components/login";
 
 @import "base/animation";
 @import "base/base";
