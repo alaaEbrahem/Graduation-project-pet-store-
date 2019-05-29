@@ -689,13 +689,25 @@ a {
     .slider__indicator:hover, .slider__indicator.active {
       background-color: #94C13D; }
 
-.add-animal-form {
+.custom-form {
+  background-color: #ffffff;
   margin-bottom: 20px;
   margin-top: 20px;
   border: 1px grey solid;
   border-top: 5px #94C13D solid;
   border-radius: 10px;
   padding: 16px; }
+
+.form-title {
+  color: #94C13D;
+  margin: auto;
+  font-family: inherit; }
+
+.form-left-side {
+  color: #ffffff;
+  border-radius: 10px;
+  margin-left: 1.9rem;
+  background-color: #94c13d; }
 
 .gender-field, .is-to-sail-field {
   border: 1.1px solid #94C13D;
