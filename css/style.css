@@ -746,7 +746,7 @@ a {
       background-color: #94C13D; }
 
 .custom-form {
-  background-color: #ffffff;
+  background-color: #f3f0f0;
   margin-bottom: 20px;
   margin-top: 20px;
   border: 1px grey solid;
@@ -762,7 +762,6 @@ a {
 .form-left-side {
   color: #ffffff;
   border-radius: 10px;
-  margin-left: 1.9rem;
   background-color: #94c13d; }
 
 .gender-field, .is-to-sail-field {
@@ -795,11 +794,9 @@ a {
   padding-bottom: 10px; }
 
 .text-box {
-  border-radius: 25px;
   height: 3.5rem; }
 
 .form-drop_down {
-  border-radius: 25px;
   height: 3.5rem; }
 
 .form-control {
