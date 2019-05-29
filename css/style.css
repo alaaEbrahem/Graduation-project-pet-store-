@@ -904,12 +904,6 @@ textarea {
   margin-top: 2rem;
   height: 4rem; }
 
-body {
-  background-image: url("../images/testImg.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
 .login-form__two-sides {
   height: 100%; }
   .login-form__two-sides__advices {
