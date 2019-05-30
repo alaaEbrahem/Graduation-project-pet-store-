@@ -939,6 +939,9 @@ a:hover {
     .slider__indicator:hover, .slider__indicator.active {
       background-color: #94C13D; }
 
+.form-body {
+  background-color: #ffffff; }
+
 .custom-form {
   background-color: #f3f0f0;
   margin-bottom: 20px;
