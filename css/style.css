@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background-color: transparent; }
 
 a {
   text-decoration: none; }
@@ -863,8 +864,11 @@ a {
     .slider__indicator:hover, .slider__indicator.active {
       background-color: #94C13D; }
 
+.form-body {
+  background-color: #ffffff; }
+
 .custom-form {
-  background-color: #ffffff;
+  background-color: #f3f0f0;
   margin-bottom: 20px;
   margin-top: 20px;
   border: 1px grey solid;
@@ -880,7 +884,6 @@ a {
 .form-left-side {
   color: #ffffff;
   border-radius: 10px;
-  margin-left: 1.9rem;
   background-color: #94c13d; }
 
 .gender-field, .is-to-sail-field {
@@ -905,19 +908,19 @@ a {
   font-size: 1.3rem;
   font-weight: 700;
   text-transform: uppercase;
-  padding: .5rem; }
+  padding: .5rem;
+  color: black; }
 
 .form-check-label {
   font-size: 1.6rem;
   line-height: .85;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  color: black; }
 
 .text-box {
-  border-radius: 25px;
   height: 3.5rem; }
 
 .form-drop_down {
-  border-radius: 25px;
   height: 3.5rem; }
 
 .form-control {
@@ -1116,7 +1119,8 @@ textarea {
 
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background-color: transparent; }
 
 a {
   text-decoration: none; }
