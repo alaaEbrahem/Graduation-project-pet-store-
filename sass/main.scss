@@ -48,7 +48,7 @@
 @import 'components/button';
 @import 'components/text-area';
 @import "components/login";
-
+@import "components/text-card";
 
 @import "base/animation";
 @import "base/base";
@@ -58,3 +58,6 @@
 
 @import "layout/_footer.scss";
 @import "layout/header";
+
+
+@import "pages/userProfile";
