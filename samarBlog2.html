@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Main Blog</title>
+    <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link
@@ -21,12 +21,13 @@
       integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
       crossorigin="anonymous"
     />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
       integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
@@ -45,7 +46,7 @@
     <section>
       <div class="container-fliud no-gutters">
         <div class="row no-gutters">
-          <div class="col-sm-2 pl-5">
+          <div class="col-sm-12 col-md-12 col-lg-2 pl-5">
             <div class="left-sidebar mt-3">
               <h2>Tags</h2>
               <div class="card-group tag" id="accordian">
@@ -137,45 +138,45 @@
                     <div class="row card">
                       <div class="col col-12">
                         <li>
-                          <h4 class="active">
+                          <h5 class="active">
                             <a href=""> <span>March 2010</span> <span class="pull-right">(50)</span></a>
-                          </h4>
+                          </h5>
                         </li>
                       </div>
                     </div>
                     <div class="row card">
                       <div class="col col-12">
                         <li>
-                          <h4 class="active">
+                          <h5 class="active">
                             <a href=""> <span>Jan 2012</span> <span class="pull-right">(88)</span></a>
-                          </h4>
+                          </h5>
                         </li>
                       </div>
                     </div>
                     <div class="row card">
                       <div class="col col-12">
                         <li>
-                          <h4 class="active">
+                          <h5 class="active">
                             <a href=""> <span>Sep 2014</span> <span class="pull-right">(30)</span></a>
-                          </h4>
+                          </h5>
                         </li>
                       </div>
                     </div>
                     <div class="row card">
                       <div class="col col-12">
                         <li>
-                          <h4 class="active">
+                          <h5 class="active">
                             <a href=""> <span>August 2017</span> <span class="pull-right">(60)</span></a>
-                          </h4>
+                          </h5>
                         </li>
                       </div>
                     </div>
                     <div class="row card">
                       <div class="col col-12">
                         <li>
-                          <h4 class="active">
+                          <h5 class="active">
                             <a href=""> <span>May 2018</span> <span class="pull-right">(110)</span></a>
-                          </h4>
+                          </h5>
                         </li>
                       </div>
                     </div>
@@ -184,94 +185,35 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-8 ml-5">
-            <div class="blog-posts-container mt-3">
-              <h1 class="title text-center">Our Blog</h1>
-              <div class="blog-posts-container__post post mt-5">
-                <h4 class="post__header mb-3">How to Survive Giving Your Dog a Bath</h4>
-                <div class="post__meta">
-                  <ul>
-                    <li><i class="fa fa-user"></i> Mac Doe</li>
-                    <li><i class="fa fa-clock-o"></i> 1:33 pm</li>
-                    <li><i class="fa fa-calendar"></i> DEC 5, 2013</li>
-                  </ul>
+          <div class="col-sm-8 ml-5 add-post">
+            <div class="replay-box">
+              <div class="row no-gutters">
+                <div class="col-sm-7">
+                  <h1 class="title ">Add Post</h1>
+                  <form class="add-post__form" style="display: flex;flex-direction:column">
+                    <div class="blank-arrow mt-3">
+                      <label class="label">Post Title</label>
+                    </div>
+                    <input class="form-control post__title form-control-lg" type="text" placeholder="write The title of post...">
+                    <div class="blank-arrow mt-3">
+                      <label class="label">Body</label>
+                    </div>
+                    <div class="form-group add-post--body">
+                      <textarea name="editor1" class="form-control" id="FormTextarea" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <button class="theme-btn btn-style-one" type="submit">ADD</button>
+                    </div>
+                  </form>
                 </div>
-                <a href="">
-                  <img class="post__image" src="images/blog/adorable-animals-breed-374825.jpg" alt="" />
-                </a>
-                <p class="post__title">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur.
-                </p>
-                <span class="badge badge-primary post-tag">Dog</span>
-                <span class="badge badge-primary post-tag">Care</span>
-                <span class="badge badge-primary post-tag">Vitamins</span>
-              </div>
-              <div class="blog-posts-container__post post mt-5">
-                <h4 class="post__header mb-3">Living with Cat Allergies</h4>
-                <div class="post__meta">
-                  <ul>
-                    <li><i class="fa fa-user"></i> Mac Doe</li>
-                    <li><i class="fa fa-clock-o"></i> 1:33 pm</li>
-                    <li><i class="fa fa-calendar"></i> DEC 5, 2013</li>
-                  </ul>
-                </div>
-                <a href="">
-                  <img class="post__image" src="images/blog/adorable-animals-beautiful-eyes-1643456.jpg" alt="" />
-                </a>
-                <p class="post__title">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur.
-                </p>
-                <span class="badge badge-primary post-tag">Cat</span>
-                <span class="badge badge-primary post-tag">Care</span>
-                <span class="badge badge-primary post-tag">Vitamins</span>
-              </div>
-              <div class="blog-posts-container__post post mt-5">
-                <h4 class="post__header mb-3">How to Survive Giving Your Cat a Bath</h4>
-                <div class="post__meta">
-                  <ul>
-                    <li><i class="fa fa-user"></i> Mac Doe</li>
-                    <li><i class="fa fa-clock-o"></i> 1:33 pm</li>
-                    <li><i class="fa fa-calendar"></i> DEC 5, 2013</li>
-                  </ul>
-                </div>
-                <a href="">
-                  <img class="post__image" src="images/blog/adorable-animal-black-and-white-825947.jpg" alt="" />
-                </a>
-                <p class="post__title">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur.
-                </p>
-                <span class="badge badge-primary post-tag">Dog</span>
-                <span class="badge badge-primary post-tag">Care</span>
-                <span class="badge badge-primary post-tag">Vitamins</span>
-              </div>
-              <div class="pagination-area">
-                <ul class="pagination">
-                  <li>
-                    <a href="" class="pagination-icon pagination-item">&lt;</a>
-                  </li>
-                  <li><a href="" class="pagination-item ">1</a></li>
-                  <li><a href="" class="pagination-item active">2</a></li>
-                  <li><a href="" class="pagination-item">3</a></li>
-                  <li>
-                    <a href="" class="pagination-item pagination-icon">&gt;</a>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
-          <div class="col-sm-1">
-            <button class="btn btn--primary add-post__btn m-4">Add Post</button>
-          </div>
+          <div class="col-sm-1"></div>
         </div>
       </div>
     </section>
-    <!-- Footer -->
+    <!-- footer -->
     <div class="container-fluid no-gutters footer mt-5">
       <div class="row footer-row my-5  m-auto justify-content-center footer-font">
         <div class="col-md-3 text-left  my-5 ">
@@ -360,5 +302,9 @@
         </div>
       </div>
     </div>
+
+    <script>
+      CKEDITOR.replace("editor1");
+    </script>
   </body>
 </html>

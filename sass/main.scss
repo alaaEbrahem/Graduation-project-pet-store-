@@ -18,7 +18,7 @@
 @import "components/searchHeader";
 @import "components/checkbox";
 @import "components/leftSidebar";
-@import "components/taglisting";
+@import "components/taglisting"; 
 @import "components/post";
 @import "components/btn";
 @import "components/badge";
@@ -33,11 +33,30 @@
 @import "components/search-box";
 
 @import 'components/banner-image';
+<<<<<<< HEAD
 @import 'components/post';
 @import 'components/comments';
 @import 'components/button';
 @import 'components/text-area';
 @import "components/login";
+=======
+@import 'components/comments';
+@import 'components/form';
+@import 'components/cards-slider';
+@import 'components/burger-dropdown';
+@import 'components/post';
+@import 'components/slider';
+@import 'components/custom-form';
+@import 'components/lable';
+@import 'components/textbox'; 
+@import 'components/dropdown'; 
+@import 'components/form-control'; 
+@import "components/postListing";
+@import 'components/button';
+@import 'components/text-area';
+@import "components/login";
+@import "components/text-card";
+>>>>>>> 3cf894afa915ba9cdf79bcb908f1ce7597737b7b
 
 @import "base/animation";
 @import "base/base";
@@ -47,3 +66,6 @@
 
 @import "layout/_footer.scss";
 @import "layout/header";
+
+
+@import "pages/userProfile";
