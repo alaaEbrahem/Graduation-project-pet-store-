@@ -2,12 +2,11 @@
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
-
-@import 'base/animation';
-@import 'base/base';
-@import 'base/reset';
-@import 'base/typography';
-@import 'base/utilites'; 
+@import "base/animation";
+@import "base/base";
+@import "base/reset";
+@import "base/typography";
+@import "base/utilites";
 
 @import "components/AnimalBanner";
 @import "components/AnimalTypesBox";
@@ -32,6 +31,7 @@
 @import "components/item-listing";
 @import "components/crud-actions";
 @import "components/search-box";
+
 @import 'components/banner-image';
 @import 'components/post';
 @import 'components/comments';
@@ -47,5 +47,3 @@
 
 @import "layout/_footer.scss";
 @import "layout/header";
-@import "layout/nav-bar";
-
