@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node-sass sass/main.scss Css/style.css -w"
+    "start": "node-sass sass/main.scss css/style.css -w"
   },
   "repository": {
     "type": "git",
