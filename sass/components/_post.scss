@@ -1,16 +1,8 @@
 .post-paragrph{
-<<<<<<< HEAD
-        p{
-            line-height: 2rem;
-            margin-bottom: 1rem;
-            font-size: 1.3rem;
-        }
-=======
     p{
         line-height: 2rem;
         margin-bottom: 1rem;
         font-size: 1.3rem;
->>>>>>> 3cf894afa915ba9cdf79bcb908f1ce7597737b7b
     }
 }
 .post-date{
@@ -22,45 +14,6 @@
         font-weight: 700;   
    } &__month{
         color: white;
-<<<<<<< HEAD
-            font-size: 1.7rem;
-            font-weight: 700;   
-       } &__month{
-            color: white;
-            font-size: 1.3rem;
-            font-weight: 600;
-        }
-    }
-    .post-title{
-        text-decoration: none;
-        font-size: 1.9rem;
-        font-weight: 600;
-        color:$color-gray-light;
-        &:hover{
-            text-decoration: none;
-            color: $color-primary;   
-        }
-    }
-    .far,.fas{
-        color: $color-primary;
-        font-weight: 600;
-        font-size: 1.2rem;
-    }
-    .social{
-        font-size: 1rem;
-        color:$color-gray-light;
-        font-weight: 600;
-    }
-    .line-small{
-        height: 0.2rem;
-        background-color: $color-primary;
-        width: 2rem;
-    }
-    .line-medium{
-        height: 0.2rem;
-        background-color: $color-primary;
-        width: 4rem;
-=======
         font-size: 1.3rem;
         font-weight: 600;
     }
@@ -73,7 +26,6 @@
     &:hover{
         text-decoration: none;
         color: $color-primary;   
->>>>>>> 3cf894afa915ba9cdf79bcb908f1ce7597737b7b
     }
 }
 .far,.fas{
@@ -97,19 +49,6 @@
     width: 4rem;
 }
 .tags{
-<<<<<<< HEAD
-    a{
-        color:$color-primary;
-        font-size: 1.2rem;
-        font-weight: 600;
-        &:hover{
-            text-decoration: none;
-            color:$color-primary ;
-        }
-    }
-    .first{
-        color: $color-gray-light;
-=======
 a{
     color:$color-primary;
     font-size: 1.2rem;
@@ -117,7 +56,6 @@ a{
     &:hover{
         text-decoration: none;
         color:$color-primary ;
->>>>>>> 3cf894afa915ba9cdf79bcb908f1ce7597737b7b
     }
 }
 .first{
@@ -141,13 +79,8 @@ background: #94c13d;
 color:white; 
 }}
 .share-this{
-<<<<<<< HEAD
-  font-weight: 600;
-  font-size: 1.2rem;
-=======
 font-weight: 600;
 font-size: 1.2rem;
->>>>>>> 3cf894afa915ba9cdf79bcb908f1ce7597737b7b
 }
 }
 .sperator{
