@@ -8,6 +8,7 @@
 @import "base/typography";
 @import "base/utilites";
 
+
 @import "components/AnimalBanner";
 @import "components/AnimalTypesBox";
 @import "components/FAQ";
@@ -64,6 +65,8 @@
 
 @import "layout/_footer.scss";
 @import "layout/header";
+@import "layout/nav-bar";
+
 
 
 @import "pages/userProfile";

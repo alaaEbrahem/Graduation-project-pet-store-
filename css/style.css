@@ -112,7 +112,7 @@ a {
   height: 100%; }
   .Introduction--Box--info__paragraph {
     line-height: 1.444;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     font-family: 'Varela Round', sans-serif;
     color: #666; }
   .Introduction--Box--info__Question {
@@ -1273,6 +1273,71 @@ a {
   color: black !important; }
   .nav-cont a:hover {
     color: #94C13D !important; }
+
+.navbar__logo {
+  font-family: 'Satisfy', cursive;
+  color: #ffffff;
+  font-size: 3.2rem;
+  padding-right: 6rem;
+  font-weight: bold; }
+
+.navbar__sign-in__p {
+  margin: 0; }
+
+.navbar__sign-in__user {
+  font-size: 1.6rem;
+  color: #94C13D; }
+  .navbar__sign-in__user:hover {
+    color: #555; }
+
+.navbar__sign-in__text {
+  font-size: 1.5rem; }
+  .navbar__sign-in__text p {
+    margin: 0;
+    color: #555; }
+    .navbar__sign-in__text p a {
+      color: black;
+      font-size: 1.3rem;
+      font-weight: 500; }
+      .navbar__sign-in__text p a:hover {
+        color: #94C13D; }
+
+.navbar__search__input .form-group {
+  margin: 0; }
+
+.navbar__search__input input {
+  color: white;
+  height: 4rem;
+  border-radius: 124rem/103rem;
+  box-shadow: 0px 2px 2px #94C13D; }
+  .navbar__search__input input:hover {
+    border: 1px solid #94C13D;
+    box-shadow: 0px 1px 1px #94C13D; }
+  .navbar__search__input input:focus {
+    color: #94C13D;
+    box-shadow: 0px 1px 1px #94C13D; }
+
+.navbar__search__icon i {
+  color: #94C13D;
+  font-size: 2.5rem;
+  line-height: 4rem; }
+
+.bottom_nav {
+  height: 8rem; }
+  .bottom_nav ul {
+    padding-top: 3rem; }
+    .bottom_nav ul.menu {
+      padding-top: 3rem;
+      padding-left: 11rem; }
+  .bottom_nav .hamburger {
+    padding-top: 2rem; }
+
+@media all and (max-width: 992px) {
+  .bottom_nav ul {
+    padding-top: 3rem; }
+    .bottom_nav ul.menu {
+      padding-top: 3rem;
+      padding-left: 0rem; } }
 
 a {
   text-decoration: none; }
